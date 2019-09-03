@@ -1,0 +1,131 @@
+.App {
+  padding: 20px;
+}
+
+li {
+  list-style: none
+}
+
+.nav-container {
+  display: flex;
+  width: 60%;
+  margin: 10px auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.steps {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  padding: 5px 10px;
+  border: 1px solid black;
+
+}
+.list-item:last-child {
+  border-right: 1px solid black;
+}
+
+.active-nav {
+  background: #1b315d;
+  color: white;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin: 5px auto;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.input-label {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.add-more {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.input-step3 {
+  margin-right: 10px;
+}
+
+.main-container {
+  margin: 20px auto;
+  border-radius: 5px;
+  width: 50%;
+  min-height: 200px;
+  padding: 20px;
+  box-shadow: 0 0px 10px rgba(0,0,0, .16);
+}
+
+.servings {
+  margin-left: 10px;
+}
+
+.arrows {
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  height: 40px;
+  border-radius: 5px;
+  background: #f1f1f1f1;
+  cursor: pointer;
+}
+
+.noColor {
+  background: transparent;
+}
+
+.meals {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.Review {
+  padding: 20px;
+  display: flex;
+
+}
+
+.meal-dishes {
+  border: 1px solid #f1f1f1;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.center span {
+  font-size: 20px;
+  margin: 5px;
+}
